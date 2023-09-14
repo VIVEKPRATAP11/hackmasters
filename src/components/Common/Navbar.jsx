@@ -157,6 +157,20 @@ function Navbar() {
               </button>
             </Link>
           )}
+          {token === null && (
+            <Link to="/login">
+              <button className="rounded-[8px] border border-richblack-700 bg-richblack-800 px-[12px] py-[8px] text-richblack-100">
+                Log in
+              </button>
+            </Link>
+          )}
+          {token === null && (
+            <Link to="/signup">
+              <button className="rounded-[8px] border border-richblack-700 bg-richblack-800 px-[12px] py-[8px] text-richblack-100">
+                Sign up
+              </button>
+            </Link>
+          )}
           {token !== null && <ProfileDropdown />}
         </div>
         <button className="mr-4 md:hidden">
