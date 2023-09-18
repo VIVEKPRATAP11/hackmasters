@@ -32,26 +32,23 @@ function Home() {
 
         {/* Heading */}
         <div className="mt-[50px] text-center text-4xl font-semibold">
-          Empower Your Future with
-          <HighlightText text={"Coding Skills"} />
+        Unlock the Power of Education: Your Government's Gateway to Learning, 
+          <HighlightText text={"EDU BHARAT !"} /> <br /><br />
         </div>
 
         {/* Sub Heading */}
         <div className="-mt-3 w-[90%] text-center text-lg font-bold text-richblack-300">
-          With our online coding courses, you can learn at your own pace, from
-          anywhere in the world, and get access to a wealth of resources,
-          including hands-on projects, quizzes, and personalized feedback from
-          instructors.
+        Empowering Minds, Transforming Futures! <br/>         With our online coding courses, you can learn at your own pace, Get 1 on 1 doubt sessions , Learn from our best teachers and a lot more.
         </div>
 
         {/* CTA Buttons */}
         <div className="mt-8 flex flex-row gap-7">
-          <CTAButton active={true} linkto={"/signup"}>
-            Learn More
+          <CTAButton active={true} linkto={"/"}>
+            Explore  
           </CTAButton>
-          <CTAButton active={false} linkto={"/login"}>
+          {/* <CTAButton active={false} linkto={"/login"}>
             Book a Demo
-          </CTAButton>
+          </CTAButton> */}
         </div>
 
         {/* Video */}
