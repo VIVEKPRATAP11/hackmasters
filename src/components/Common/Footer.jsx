@@ -4,7 +4,7 @@ import { FaFacebook, FaGoogle, FaTwitter, FaYoutube } from "react-icons/fa"
 import { Link } from "react-router-dom"
 
 // Images
-import Logo from "../../assets/Logo/Logo-Full-Light.svg"
+import Logo from "../../assets/Logo/Logo_Dark.png"
 import { FooterLink2 } from "../../data/footer-links"
 
 const BottomFooter = ["Privacy Policy", "Cookie Policy", "Terms"]

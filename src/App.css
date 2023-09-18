@@ -212,7 +212,7 @@ details > summary::-webkit-details-marker {
 
 /* Buttons */
 .yellowButton {
-  @apply cursor-pointer rounded-md bg-yellow-50 px-[20px] py-[8px] font-semibold text-richblack-900;
+  @apply cursor-pointer rounded-md bg-yellow-50 px-[20px] py-[8px] font-semibold text-white;
 }
 
 /* Swiper CSS Starts */
@@ -239,7 +239,7 @@ details > summary::-webkit-details-marker {
   @apply text-[14px] text-richblack-5;
 }
 .form-style {
-  @apply rounded-lg bg-white p-3 text-[16px] leading-[24px] text-richblack-5 shadow-[0_1px_0_0] shadow-white/50 outline outline-1 outline-[#ff6d2d] outline-[#ff6d2d] placeholder:text-richblack-5 focus:outline-none;
+  @apply rounded-lg bg-white p-3 text-[16px] leading-[24px] text-richblack-5 shadow-[0_1px_0_0] shadow-white/50 outline outline-1 outline-[#ff6d2d] outline-[#ff6d2d] placeholder:text-richblack-5;
 }
 .section_heading {
   @apply text-2xl font-bold text-richblack-5 lg:text-4xl;

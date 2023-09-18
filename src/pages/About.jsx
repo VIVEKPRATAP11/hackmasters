@@ -113,7 +113,7 @@ const About = () => {
         <ContactFormSection />
       </section>
 
-      <div className="relative mx-auto my-20 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-richblack-900 text-black">
+      <div className="relative mx-auto my-20 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-white text-black">
         {/* Reviws from Other Learner */}
         <h1 className="mt-8 text-center text-4xl font-semibold">
           Reviews from other learners
