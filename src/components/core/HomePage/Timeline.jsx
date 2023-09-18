@@ -10,22 +10,22 @@ const TimeLine = [
   {
     Logo: Logo1,
     Heading: "Leadership",
-    Description: "Fully committed to the success company",
+    Description: "Dedicated to empowering students",
   },
   {
     Logo: Logo2,
     Heading: "Responsibility",
-    Description: "Students will always be our top priority",
+    Description: "Our foremost duty: students' success",
   },
   {
     Logo: Logo3,
     Heading: "Flexibility",
-    Description: "The ability to switch is an important skills",
+    Description: "Adaptability is a key asset",
   },
   {
     Logo: Logo4,
     Heading: "Solve the problem",
-    Description: "Code your way to a solution",
+    Description: "Navigate challenges for student growth",
   },
 ]
 

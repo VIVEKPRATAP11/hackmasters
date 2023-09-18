@@ -58,6 +58,7 @@ function Home() {
             muted
             loop
             autoPlay
+            controls
           >
             <source src={Banner} type="video/mp4" />
           </video>
@@ -88,7 +89,7 @@ function Home() {
               active: false,
             }}
             codeColor={"text-black"}
-            codeblock={`<!DOCTYPE html>\n <html lang="en">\n<head>\n<title>This is myPage</title>\n</head>\n<body>\n<h1><a href="/">Header</a></h1>\n<nav> <a href="/one">One</a> <a href="/two">Two</a> <a href="/three">Three</a>\n</nav>\n</body>`}
+            codeblock={`Access to education widened.\n Rural areas benefitted.\nTech skills improved.\nE-learning growth.\nBridge learning gaps.\nCost-effective learning.\nSkill development up.\nCustomized learning.\nGlobal competition.\nDigital divide narrows.`}
             backgroundGradient={<div className="codeblock1 absolute"></div>}
           />
         </div>
