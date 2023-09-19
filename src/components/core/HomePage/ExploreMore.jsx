@@ -39,14 +39,14 @@ const ExploreMore = () => {
       </div>
 
       {/* Tabs Section */}
-      <div className="hidden lg:flex gap-5 -mt-5 mx-auto w-max bg-[#161D29] text-richblack-200 p-1 rounded-full font-medium drop-shadow-[0_1.5px_rgba(255,255,255,0.25)]">
+      <div className="hidden lg:flex gap-5 -mt-5 mx-auto w-max bg-[#ff6d2d] text-richblack-200 p-1 rounded-full font-medium drop-shadow-[0_1.5px_rgba(255,255,255,0.25)]">
         {tabsName.map((ele, index) => {
           return (
             <div
               className={` text-[16px] flex flex-row items-center gap-2 ${
                 currentTab === ele
                   ? "bg-white text-richblack-5 font-medium"
-                  : "text-richblack-200"
+                  : "text-white"
               } px-7 py-[7px] rounded-full transition-all duration-200 cursor-pointer hover:bg-white hover:text-richblack-5`}
               key={index}
               onClick={() => setMyCards(ele)}

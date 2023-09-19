@@ -9,9 +9,9 @@ const CourseCard = ({cardData, currentCard, setCurrentCard}) => {
     <div
       className={`w-[360px] lg:w-[30%] ${
         currentCard === cardData?.heading
-          ? "bg-white shadow-[12px_12px_0_0] shadow-yellow-50"
+          ? "bg-white shadow-[12px_12px_0_0] shadow-[#ff6d2d]"
           : "bg-[#161D29]"
-      }  text-richblack-25 h-[300px] box-border cursor-pointer`}
+      }  text-[#ff6d2d] h-[300px] box-border cursor-pointer`}
       onClick={() => setCurrentCard(cardData?.heading)}
     >
       <div className="border-b-[2px] border-richblack-400 border-dashed h-[80%] p-6 flex flex-col gap-3">
@@ -28,17 +28,17 @@ const CourseCard = ({cardData, currentCard, setCurrentCard}) => {
 
       <div
         className={`flex justify-between ${
-          currentCard === cardData?.heading ? "text-blue-300" : "text-richblack-300"
+          currentCard === cardData?.heading ? "text-blue-300" : "text-[#838894]"
         } px-6 py-3 font-medium`}
       >
         {/* Level */}
-        <div className="flex items-center gap-2 text-[16px]">
+        <div className="flex items-center gap-2 text-[16px] ">
           <HiUsers />
           <p>{cardData?.level}</p>
         </div>
 
         {/* Flow Chart */}
-        <div className="flex items-center gap-2 text-[16px]">
+        <div className="flex items-center gap-2 text-[16px] ">
           <ImTree />
           <p>{cardData?.lessionNumber} Lession</p>
         </div>

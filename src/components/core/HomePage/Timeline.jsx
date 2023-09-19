@@ -55,20 +55,20 @@ const TimelineSection = () => {
             )
           })}
         </div>
-        <div className="relative h-fit w-fit shadow-[0px_0px_30px_0px] shadow-blue-200">
-          <div className="absolute flex flex-col gap-4 bg-caribbeangreen-700 py-5 uppercase text-black lg:bottom-0 lg:left-[50%] lg:translate-x-[-50%] lg:translate-y-[50%] lg:flex-row lg:gap-0 lg:py-10 ">
+        <div className="relative h-fit w-fit">
+          <div className="absolute flex flex-col gap-4 bg-[#ff6d2d] py-5 uppercase text-black lg:bottom-0 lg:left-[50%] lg:translate-x-[-50%] lg:translate-y-[50%] lg:flex-row lg:gap-0 lg:py-10 ">
             {/* Section 1 */}
-            <div className="flex items-center gap-5 border-caribbeangreen-300 px-7 lg:border-r lg:px-14">
-              <h1 className="w-[75px] text-3xl font-bold">10</h1>
-              <h1 className="w-[75px] text-sm text-caribbeangreen-300">
+            <div className="flex items-center gap-0 border-white px-7 lg:border-r lg:px-14">
+              <h1 className="w-[75px]  text-white text-3xl font-bold">10</h1>
+              <h1 className="w-[75px] text-sm text-white">
                 Years experiences
               </h1>
             </div>
 
             {/* Section 2 */}
-            <div className="flex items-center gap-5 px-7 lg:px-14">
-              <h1 className="w-[75px] text-3xl font-bold">250</h1>
-              <h1 className="w-[75px] text-sm text-caribbeangreen-300">
+            <div className="flex  text-white items-center gap-5 px-7 lg:px-14">
+              <h1 className="w-[75px]  text-white text-3xl font-bold">250</h1>
+              <h1 className="w-[75px] text-sm text-white">
                 types of courses
               </h1>
             </div>

@@ -41,8 +41,8 @@ function Home() {
         </div>
 
         {/* Sub Heading */}
-        <div className="-mt-3 w-[90%] text-center text-lg font-bold text-richblack-300">
-        Empowering Minds, Transforming Futures! <br/>         With our online coding courses, you can learn at your own pace, Get 1 on 1 doubt sessions , Learn from our best teachers and a lot more.
+        <div className="-mt-3 w-[90%] text-center text-lg text-richblack-400 font-medium gap-[0.2]">
+        Empowering Minds, Transforming Futures! <br/>         
         </div>
 
         {/* CTA Buttons */}
@@ -56,9 +56,9 @@ function Home() {
         </div>
 
         {/* Video */}
-        <div className="mx-3 my-7 shadow-[10px_-5px_50px_-5px] shadow-blue-200">
+        <div className=" rounded-md mx-3 my-7 shadow-[4px_4px_8px_0px] shadow-[#ff6d2d]">
           <video
-            className="shadow-[20px_20px_rgba(255,255,255)]"
+            className="rounded-md"
             muted
             loop
             autoPlay
@@ -78,7 +78,7 @@ function Home() {
                 <HighlightText text={"Digital Education"} /> on India.
               </div>
             }
-            subheading={
+            subheading={ 
               "Digital education has revolutionized India, breaking barriers of accessibility and offering quality learning opportunities to millions, paving the way for a brighter, knowledge-driven future years of experience in coding and are passionate about sharing their knowledge with you."
             }
             ctabtn1={{
