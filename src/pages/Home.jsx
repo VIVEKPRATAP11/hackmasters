@@ -14,12 +14,16 @@ import HighlightText from "../components/core/HomePage/HighlightText"
 import InstructorSection from "../components/core/HomePage/InstructorSection"
 import LearningLanguageSection from "../components/core/HomePage/LearningLanguageSection"
 import TimelineSection from "../components/core/HomePage/Timeline"
+import image from '../assets/Images/g20.jpeg'
 
 function Home() {
   return (
     <div>
       {/* Section 1 */}
       <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 text-black">
+        <div className="mt-8 img">
+           <img src={image} alt="" />
+        </div>
         {/* Become a Instructor Button */}
         {/* <Link to={"/signup"}>
           <div className="group mx-auto mt-16 w-fit rounded-full bg-richhack-900 p-1 font-bold text-richblack-200 drop-shadow-[0_1.5px_rgba(255,255,255,0.25)] transition-all duration-200 hover:scale-95 hover:drop-shadow-none">
@@ -70,13 +74,12 @@ function Home() {
             position={"lg:flex-row"}
             heading={
               <div className="text-4xl font-semibold">
-                Unlock your
-                <HighlightText text={"coding potential"} /> with our online
-                courses.
+                Impact of
+                <HighlightText text={"Digital Education"} /> on India.
               </div>
             }
             subheading={
-              "Our courses are designed and taught by industry experts who have years of experience in coding and are passionate about sharing their knowledge with you."
+              "Digital education has revolutionized India, breaking barriers of accessibility and offering quality learning opportunities to millions, paving the way for a brighter, knowledge-driven future years of experience in coding and are passionate about sharing their knowledge with you."
             }
             ctabtn1={{
               btnText: "Try it Yourself",
@@ -85,7 +88,7 @@ function Home() {
             }}
             ctabtn2={{
               btnText: "Learn More",
-              link: "/signup",
+              link: "/",
               active: false,
             }}
             codeColor={"text-black"}
