@@ -43,6 +43,11 @@ details > summary::-webkit-details-marker {
   display: none;
 }
 
+body *{
+  font-family: inter , sans serif;
+  letter-spacing: 0.1px;
+}
+
 /* https://10015.io/tools/css-loader-generator */
 .spinner {
   width: 56px;
